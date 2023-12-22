@@ -19,7 +19,7 @@ export default function Home() {
           as='h1'
           className='text-[2rem] text-[#0F4F57] leading-tight font-heading md:text-6xl md:leading-[1.08] space-y-2'
         >
-          The documentation you want, effortlessly
+          Crafting the narrative you desire, effortlessly
         </Balancer>
         <Balancer
           as='p'
@@ -44,7 +44,7 @@ export default function Home() {
             <span className='sr-only'>signup</span>
           </Link>
           <Link
-            href='/demo'
+            href='https://overdocs.mintlify.app'
             className={cn(
               buttonVariants({
                 className: 'text-base font-normal text-primint',
