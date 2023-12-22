@@ -8,8 +8,17 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mintary.vercel.app'),
   title: 'Mintary',
   description: 'The documentation you want, effortlessly',
+  openGraph: {
+    title: 'Mintary',
+    description: 'The documentation you want, effortlessly',
+    url: 'https://mintary.vercel.app',
+    siteName: 'Mintary',
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({

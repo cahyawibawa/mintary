@@ -13,7 +13,7 @@ const links = {
 export const siteConfig = {
   name: 'Mintary',
   description: 'The documentation you want, effortlessly',
-  url: 'opengraph-image.png',
+  url: 'https://mintary.vercel.app',
   ogImage: 'https://mintary.vercel.app/opengraph-image.png',
   links,
   mainNav: [
